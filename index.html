@@ -1,0 +1,34 @@
+<div class = 'container'>
+  <div class = 'row'>
+    <div class = 'col-xs-12 text-center'>
+      <h1>Free Code Camp</h1>
+    </div>
+  </div>
+  <div class = 'row'>
+    <div class = 'col-xs-6 text-right'>
+      BREAK LENGTH <br />
+      <span id = 'incBreak'>+</span><span id = 'breakTime' class = 'timeLength'>TIME</span><span id = 'decBreak'>-</span>
+    </div>
+    <div class = 'col-xs-6'>
+      SESSION LENGTH <br />
+      <span id = 'incSession'>+</span><span id = 'sessTime' class = 'timeLength'>TIME</span><span id = 'decSession'>-</span>
+    </div>
+  </div>
+  <div class = 'row'>
+    <div id = 'reset' class = 'text-center'>RESET</div>
+  </div>
+  <div class = 'row'>
+    <div id = 'clock' class = 'col-xs-12 col-xs-offset-4'>
+      <div id = 'session' class = 'text-center'>Session</div>
+      <div id = 'break' class = 'text-center'> </div>
+      <div id = 'time' class = 'text-center'>
+        <span id = 'minutes'></span><span>:</span><span id = 'seconds'></span>
+      </div>     
+      <div id = 'fill'></div>
+    </div>
+  </div>  
+</div>
+<audio id = 'beep'>
+  <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/41203/beep.mp3"/>
+  <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/41203/beep.ogg" />
+</audio>
